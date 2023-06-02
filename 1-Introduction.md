@@ -31,8 +31,8 @@
 | $A$ or $B$ | not $A$ and not $B$ |
 | $A \Rightarrow B$ | $A$ and not $B$ |
 | $A \Leftrightarrow B$ | $A$ and not $B$, or $B$ and not $A$ |
-| $\forall x.A$ | $\exist x. not A$ |
-| $\exist x.A$ | $\forall x. not A$ |
+| $\forall x.A$ | $\exists x. not A$ |
+| $\exists x.A$ | $\forall x. not A$ |
 
 ### Proof Strategies:
 * Direct proof
