@@ -22,7 +22,7 @@
 * If $A$ then $B$ ($A \Rightarrow B$)
 * $A$ if and only if $B$ ($A\Leftrightarrow B$)
 * For all $x$, $A$ ($\forall x. A$)
-* There exists $x$ such that $A$ ($\exist x.A$)
+* There exists $x$ such that $A$ ($\exists x.A$)
   
 ### **Negating Propositions:**
 | Proposition Form | Negation |
