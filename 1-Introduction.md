@@ -1,5 +1,5 @@
 # **Introduction**
-### **Four main topics of Computer Science in this repo:**
+## **Four main topics of Computer Science in this repo:**
 * **Structures**
   * Set Theory
   * Formal Languages
@@ -18,13 +18,13 @@
   * Probability
   * Statistics
   
-### **Proposition Structure:**
+## **Proposition Structure:**
 * If $A$ then $B$ ($A \Rightarrow B$)
 * $A$ if and only if $B$ ($A\Leftrightarrow B$)
 * For all $x$, $A$ ($\forall x. A$)
 * There exists $x$ such that $A$ ($\exists x.A$)
   
-### **Negating Propositions:**
+## **Negating Propositions:**
 | Proposition Form | Negation |
 | :---------------:| :------:|
 | $A$ and $B$ | not $A$ or not $B$ |
@@ -34,7 +34,7 @@
 | $\forall x.A$ | $\exists x. not A$ |
 | $\exists x.A$ | $\forall x. not A$ |
 
-### Proof Strategies:
+## **Proof Strategies:**
 * Direct proof
 * Contradiction: Using negation propositions
 * Contrapositive:
