@@ -31,11 +31,11 @@ Example: $\lfloor\pi\rfloor = 3 = \lceil e\rceil$  $\pi,e \in \mathbb{R}; \lfloo
 **Explaination of the Fact:** Here, "The number ($x$) of multiples of $k$" means $x = k\cdot a (a \in\mathbb{Z})$. And the whole fact refers to the count/quantity of integers within the range from $n$ to $m$ (including $n$ and $m$) that are divisible by $k$ without leaving a remainder.
 
 ### **Absolute Value**
-$|x| = 
+$$|x| = 
 \begin{cases}
 x,  \quad x \geq 0\\
 -x, \quad x < 0
-\end{cases}$  
+\end{cases}$$  
 ***
 
 ## **Divisibility**
