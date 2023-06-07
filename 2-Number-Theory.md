@@ -109,7 +109,7 @@ $$gdc(m,n) = \begin{cases}
 m \quad \quad \quad \quad if\quad m=n\quad  or\quad n=0\\
 n \quad \quad \quad \quad if\quad \quad m=0\\
 gcd(m\quad\\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
-gdc(m,n\quad\\%\quad m)\quad \quad if\quad\quad0<m<n \\ 
+gdc(m,n\quad\\%\quad m)\quad \quad if\quad\quad 0<m<n \\ 
 \end{cases}$$  
 **Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\\% n,n)$  
 Proof: Let $k = m\quad div\quad n$. Then $m\\% n=m-k\cdot n$ 
