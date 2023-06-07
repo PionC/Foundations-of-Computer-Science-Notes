@@ -32,11 +32,11 @@ Example: $\lfloor\pi\rfloor = 3 = \lceil e\rceil$  $\pi,e \in \mathbb{R}; \lfloo
 **Explaination of the Fact:** Here, "The number ($x$) of multiples of $k$" means $x = k\cdot a (a \in\mathbb{Z})$. And the whole fact refers to the count/quantity of integers within the range from $n$ to $m$ (including $n$ and $m$) that are divisible by $k$ without leaving a remainder.
 
 ### **Absolute Value**
-$|x| = 
+$$|x| = 
 \begin{cases}
 x,  \quad x \geq 0\\
 -x, \quad x < 0
-\end{cases}$  
+\end{cases}$$  
 ***
 
 ## **Divisibility**
@@ -44,9 +44,9 @@ x,  \quad x \geq 0\\
 * $m \mid n$ refers to $m$ divides $n$ if $n=k\cdot m$  
 * $m \nmid n$ is the negation of $m \mid n$.  
 
-Also stated as '$n$ is divisible by $m$'  
-or '$m$ is a divisor of $n$'  
-or '$n$ is a multiple of $m$'
+Also stated as ' $n$ is divisible by $m$'  
+or ' $m$ is a divisor of $n$'  
+or ' $n$ is a multiple of $m$'
 
 **Note that:** 'If $\frac{n}{m}\in\mathbb{Z}$ when $m$ divides $n$', this statement is NOT correct.  
 Becuase when considering 0,   
@@ -67,12 +67,12 @@ And $0\mid 1$ -- '0 divides 1' is False, then $\frac{1}{0}$ also makes no sense.
 * A number $n>1$ is **prime** if it is only divisble by $\pm 1$ and $\pm n$.
 * $m$ and $n$ are **relatively prime** if $gcd(m,n) = 1$  
 ### **Euclid's gcd Algorithm**
-$gcd(m,n) =
+$$gcd(m,n) =
 \begin{cases}
 m \quad \quad \quad \quad \quad \quad if \quad m = n \\
 gcd(m-n, n) \quad if \quad m > n \\
 gcd(m, n-m) \quad if \quad m < n
-\end{cases}$  
+\end{cases}$$  
 **Facts:**
 * For $m > 0$, $n > 0$ the algorithm always terminates.
 * For $m,n\in\mathbb{Z}$, if $m > n$ then $gcd(m,n)=gcd(m -kn,n)$
@@ -105,11 +105,11 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 ***
 ## **Euclidean Algorithm**
 ### **Faster Euclidean gcd Algorithm**
-$gdc(m,n) = \begin{cases}
+$$gdc(m,n) = \begin{cases}
 m \qquad \qquad \qquad \ \ \  if\ \ m=n\ or\ n=0\\
 n \qquad \qquad \qquad \quad if\ \ m=0\\
 gcd(m\ \%\ n,n)\quad \ \ if\ \ m>n>0 \\
 gdc(m,n\ \%\ m)\quad \ if\ \ 0<m<n \\    
-\end{cases}$  
+\end{cases}$$  
 **Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\ \%\ n,n)$  
 Proof: Let $k = m\ div\ n$. Then $m\ \%\ n=m-k\cdot n$ 
