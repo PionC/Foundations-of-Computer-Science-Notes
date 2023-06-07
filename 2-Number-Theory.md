@@ -89,7 +89,7 @@ gcd(m, n-m) \quad if \quad m < n
 Let $m,p\in\mathbb{Z},\quad n\in\mathbb{Z}_{>0}$  
 * $m\ div\ n = \lfloor\frac{m}{n}\rfloor$
 * $m\ \\%\ n=m-(m\ div\ n)\cdot n$
-* $m = _{(n)}p$ if $n \mid (m-p)$  
+* $m = _{(n)} p$ if $n \mid (m-p)$  
 **Note that** $m = _{(n)}p$ is **NOT standard**. It is more commonly written as $m = p\ (mod\ n) \Leftrightarrow n \mid (m-p)$  
 which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$. 
 
