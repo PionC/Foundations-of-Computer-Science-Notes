@@ -94,7 +94,7 @@ Let $m,p\in\mathbb{Z},\quad n\in\mathbb{Z}_{>0}$
 which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$. 
 
 **Fact:**
-* $0 \leq (m \ \% \  n) < n$.
+* $0 \leq \(m \ \% \  n\) < n$  
 * $m = _{(n)}p$ if, and only if, $(m \quad\% \quad n)=(p\quad\%\quadn)$
 * $m = _{(n)}(m\quad\%\quadn)$
 * If $m = _{(n)}m'$ and $p=_{(n)}p'$ then:
