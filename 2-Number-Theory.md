@@ -34,8 +34,8 @@ Example: $\lfloor\pi\rfloor = 3 = \lceil e\rceil$  $\pi,e \in \mathbb{R}; \lfloo
 ### **Absolute Value**
 $$|x| = 
 \begin{cases}
-x,  \quad x \geq 0\\
--x, \quad x < 0
+x,  \  x \geq 0\\
+-x, \  x < 0
 \end{cases}$$  
 ***
 
