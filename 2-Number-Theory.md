@@ -57,7 +57,7 @@ And $0\mid 1$ -- '0 divides 1' is False, then $\frac{1}{0}$ also makes no sense.
 ## **Greatest Common Divisor and Least Common Multiple**
 ### **gcd and lcm**
 **Definition:**
-* $gcd(m,n)$ is the **greatest common divisor** of $m$ and $n, which is the largest positive $d$ such that $d \mid m$ and $d \mid n$.
+* $gcd(m,n)$ is the **greatest common divisor** of $m$ and $n$, which is the largest positive $d$ such that $d \mid m$ and $d \mid n$.
 * $lcm(m,n)$ is the **least common multiple** of $m$ and $n$, which is the smallest positive $k$ such that $m \mid k$ and $n \mid k$.  
 
 **Note:** $gcd(m,n)$ and $lcm(m,n)$ are always taken as non-negative even if $m$ or $n$ is negatvie.  
