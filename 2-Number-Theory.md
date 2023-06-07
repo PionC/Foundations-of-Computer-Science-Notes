@@ -97,7 +97,7 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 * $0 \leq(m\ \\%\ n) < n$  
 * $m = _{(n)}p$ if, and only if, $(m\ \\%\ n)=(p\ \\%\ n)$
 * $m = _{(n)}(m\ \\%\  n)$
-* If $m = _{(n)}m'$ and $p=_{(n)}p'$ then:
+* If $m = _{(n)}m\'$ and $p=_{(n)}p\'$ then:
   * $m+p=_{(n)}m'+p'$ and
   * $m\cdot p=_{(n)}m'+p'$  
     (Proof is shown in [Task1](/Tasks/Task1.md))
