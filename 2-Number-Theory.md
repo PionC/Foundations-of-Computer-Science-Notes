@@ -43,7 +43,7 @@ x,  \quad x \geq 0\\
 * $m \mid n$ refers to $m$ divides $n$ if $n=k\cdot m$  
 * $m \nmid n$ is the negation of $m \mid n$.  
 
-Also stated as '$n$ is divisible by $m$'  
+Also stated as ' $n$ is divisible by $m$'  
 or '$m$ is a divisor of $n$'  
 or '$n$ is a multiple of $m$'
 
