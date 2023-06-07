@@ -34,8 +34,8 @@ Example: $\lfloor\pi\rfloor = 3 = \lceil e\rceil$  $\pi,e \in \mathbb{R}; \lfloo
 ### **Absolute Value**
 $$|x| = 
 \begin{cases}
-x,  \  x \geq 0\\
--x, \  x < 0
+x,  \quad x \geq 0\\
+-x, \quad x < 0
 \end{cases}$$  
 ***
 
@@ -84,20 +84,22 @@ gcd(m, n-m) \quad if \quad m < n
 
 ## **Modular Arithmetic**
 ### **Euclid's Division Lemma**
-**Fact:** For $m\in\mathbb{Z}, n\in\mathbb{Z}_{>0}$ there $\exists q,r\in\mathbb{Z}$ with $0 \leq < n$ such that $m = q\cdot n +r$ 
+**Fact:** For $m\in\mathbb{Z}, n\in\mathbb{Z}_{>0}$ there $\exists q,r\in\mathbb{Z}$ with $0 \leq r< n$ such that $m = q\cdot n +r$ 
 ### **Mod and Div**
 Let $m,p\in\mathbb{Z},\quad n\in\mathbb{Z}_{>0}$  
 * $m\ div\ n = \lfloor\frac{m}{n}\rfloor$
-* $m\ \\%\ n=m-(m\ div\ n)\cdot n$
-* $m = _{(n)} p$ if $n \mid (m-p)$  
+* $m\ \%\ n=m-(m\ div\ n)\cdot n$
+* $m = _{(n)}p$ if $n \mid (m-p)$  
 **Note that** $m = _{(n)}p$ is **NOT standard**. It is more commonly written as $m = p\ (mod\ n) \Leftrightarrow n \mid (m-p)$  
-which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$. 
+which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.  
+Also note that $m = p\ (mod\ n)$ is NOT $m=p\ \%\ n$.
 
 **Fact:**
-* $0 \leq(m\ \\%\ n) < n$  
-* $m = _{(n)}p$ if, and only if, $(m\ \\%\ n)=(p\ \\%\ n)$
-* $m = _{(n)}(m\ \\%\  n)$
-* If $m=_{(n)}m'$ and $p=_{(n)}p'$ then:
+* $0 \leq (m \ \% \  n) < n$
+* $m = _{(n)}p$ if, and only if, $(m \ \% \  n)=(p\ \%\  n)$  
+  (why?)
+* $m = _{(n)}(m\ \%\  n)$
+* If $m = _{(n)}m'$ and $p=_{(n)}p'$ then:
   * $m+p=_{(n)}m'+p'$ and
   * $m\cdot p=_{(n)}m'+p'$  
     (Proof is shown in [Task1](/Tasks/Task1.md))
@@ -105,18 +107,11 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 ***
 ## **Euclidean Algorithm**
 ### **Faster Euclidean gcd Algorithm**
-$$gdc(m,n)=\begin{cases}
-m \quad \quad \quad \quad \text{if}\quad m=n\quad \text{or}\quad n=0\\
-n \quad \quad \quad \quad \text{if}\quad \quad m=0\\
-\text{gcd}(m\quad\%\quad n,n)\quad \quad\quad \text{if}\quad\quad m>n>0\\
-\text{gdc}(m,n\quad\%\quad m)\quad \quad \text{if}\quad\quad 0<m<n\\
+$$gdc(m,n) = \begin{cases}
+m \qquad \qquad \ \ \qquad \quad if\quad m=n\quad  or\quad n=0\\
+n \qquad \qquad \ \ \ \qquad \quad if\quad \quad m=0\\
+gcd(m\ \%\  n,n)\  \quad\quad if\quad\quad m>n>0 \\
+gdc(m,n\ \%\  m)\quad \quad if\quad\quad0<m<n \\ 
 \end{cases}$$  
-
-$$gdc(m,n)=\begin{cases}
-m \quad \quad \quad \quad if\quad m=n\quad  or\quad n=0\\
-n \quad \quad \quad \quad if\quad \quad m=0\\
-gcd(m\quad\\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
-gdc(m,n\quad\\%\quad m)\quad \quad if\quad\quad 0<m<n \\ 
-\end{cases}$$  
-**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\\% n,n)$  
-Proof: Let $k = m\quad div\quad n$. Then $m\\% n=m-k\cdot n$ 
+**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\ \%\  n,n)$  
+Proof: Let $k = m\  div\  n$. Then $m\ \%\  n=m-k\cdot n$ 

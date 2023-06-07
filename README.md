@@ -1,4 +1,5 @@
-This repo is related to Foundations of Computer Science
+This repo is related to Foundations of Computer Science.  
+(Note that if the markdown files can not be displayed correctly, please download it to your local machine, and open it through a markdown file reader.)
 
 # **Contents**:
 * 1. [Introduction](1-Introduction.md)
