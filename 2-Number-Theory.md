@@ -14,7 +14,9 @@
 * Integers $\mathbb{Z} = \{..., -1, 0, 1, 2, ...\}$
 * Positive Integers $\mathbb{N}_{>0} = \mathbb{Z}_{>0} = \{1, 2, ...\}$
 * Rational Numbers (Fractions) $\mathbb{Q} = \{\frac{m}{n} : m, n \in \mathbb{Z}, n \neq 0\}$
-* Real Numbers (Decimal or Binary Expansions) $\mathbb{R} r = a_1a_2...a_k.b_1b_2...$
+* Real Numbers (Decimal or Binary Expansions) $\mathbb{R}  
+  
+  r = a_1a_2...a_k.b_1b_2...$
 
 ### **Floor and Ceiling**
 * $\lfloor.\rfloor$ : Floor of $x$, the greatest integer $\leq x$.  
@@ -31,11 +33,11 @@ Example: $\lfloor\pi\rfloor = 3 = \lceil e\rceil$  $\pi,e \in \mathbb{R}; \lfloo
 **Explaination of the Fact:** Here, "The number ($x$) of multiples of $k$" means $x = k\cdot a (a \in\mathbb{Z})$. And the whole fact refers to the count/quantity of integers within the range from $n$ to $m$ (including $n$ and $m$) that are divisible by $k$ without leaving a remainder.
 
 ### **Absolute Value**
-$$|x| = 
+$|x| = 
 \begin{cases}
 x,  \quad x \geq 0\\
 -x, \quad x < 0
-\end{cases}$$  
+\end{cases}$  
 ***
 
 ## **Divisibility**
@@ -43,7 +45,7 @@ x,  \quad x \geq 0\\
 * $m \mid n$ refers to $m$ divides $n$ if $n=k\cdot m$  
 * $m \nmid n$ is the negation of $m \mid n$.  
 
-Also stated as ' $n$ is divisible by $m$'  
+Also stated as '$n$ is divisible by $m$'  
 or '$m$ is a divisor of $n$'  
 or '$n$ is a multiple of $m$'
 
