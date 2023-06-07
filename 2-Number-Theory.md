@@ -106,8 +106,8 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 ## **Euclidean Algorithm**
 ### **Faster Euclidean gcd Algorithm**
 $$gdc(m,n) = \begin{cases}
-m \qquad \qquad \qquad \quad if\quad m=n\quad  or\quad n=0\\
-n \qquad \qquad \qquad \quad if\quad \quad m=0\\
+m \quad \quad \quad \quad if\quad m=n\quad  or\quad n=0\\
+n \quad \quad \quad \quad if\quad \quad m=0\\
 gcd(m\quad\\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
 gdc(m,n\quad\\%\quad m)\quad \quad if\quad\quad0<m<n \\ 
 \end{cases}$$  
