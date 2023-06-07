@@ -88,15 +88,15 @@ gcd(m, n-m) \quad if \quad m < n
 ### **Mod and Div**
 Let $m,p\in\mathbb{Z},\quad n\in\mathbb{Z}_{>0}$  
 * $m\ div\ n = \lfloor\frac{m}{n}\rfloor$
-* $m\ \%\ n=m-(m\ div\ n)\cdot n$
+* $m\ \\%\ n=m-(m\ div\ n)\cdot n$
 * $m = _{(n)}p$ if $n \mid (m-p)$  
 **Note that** $m = _{(n)}p$ is **NOT standard**. It is more commonly written as $m = p\ (mod\ n) \Leftrightarrow n \mid (m-p)$  
 which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$. 
 
 **Fact:**
 * $0 \leq(m\ \\%\ n) < n$  
-* $m = _{(n)}p$ if, and only if, $(m\ \%\ n)=(p\ \%\ n)$
-* $m = _{(n)}(m\quad\%\quadn)$
+* $m = _{(n)}p$ if, and only if, $(m\ \\%\ n)=(p\ \\%\ n)$
+* $m = _{(n)}(m\quad\\%\quadn)$
 * If $m = _{(n)}m'$ and $p=_{(n)}p'$ then:
   * $m+p=_{(n)}m'+p'$ and
   * $m\cdot p=_{(n)}m'+p'$  
@@ -108,8 +108,8 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 $$gdc(m,n) = \begin{cases}
 m \qquad \qquad \qquad \quad if\quad m=n\quad  or\quad n=0\\
 n \qquad \qquad \qquad \quad if\quad \quad m=0\\
-gcd(m\quad\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
-gdc(m,n\quad\%\quad m)\quad \quad if\quad\quad0<m<n \\ 
+gcd(m\quad\\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
+gdc(m,n\quad\\%\quad m)\quad \quad if\quad\quad0<m<n \\ 
 \end{cases}$$  
-**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\% n,n)$  
-Proof: Let $k = m\quad div\quad n$. Then $m\% n=m-k\cdot n$ 
+**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\\% n,n)$  
+Proof: Let $k = m\quad div\quad n$. Then $m\\% n=m-k\cdot n$ 
