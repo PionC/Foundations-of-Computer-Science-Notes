@@ -105,6 +105,27 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 ***
 ## **Euclidean Algorithm**
 ### **Faster Euclidean gcd Algorithm**
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<div>
+$$
+gdc(m,n)=\begin{cases}
+m & \text{if } m=n \text{ or } n=0\\
+n & \text{if } m=0\\
+\text{gcd}(m\%n,n) & \text{if } m>n>0\\
+\text{gdc}(m,n\%m) & \text{if } 0<m<n\\
+\end{cases}
+$$
+</div>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  });
+</script>
+
 $$gdc(m,n)=\begin{cases}
 m \quad \quad \quad \quad \text{if}\quad m=n\quad \text{or}\quad n=0\\
 n \quad \quad \quad \quad \text{if}\quad \quad m=0\\
