@@ -14,9 +14,8 @@
 * Integers $\mathbb{Z} = \{..., -1, 0, 1, 2, ...\}$
 * Positive Integers $\mathbb{N}_{>0} = \mathbb{Z}_{>0} = \{1, 2, ...\}$
 * Rational Numbers (Fractions) $\mathbb{Q} = \{\frac{m}{n} : m, n \in \mathbb{Z}, n \neq 0\}$
-* Real Numbers (Decimal or Binary Expansions) $\mathbb{R}  
-  
-  r = a_1a_2...a_k.b_1b_2...$
+* Real Numbers (Decimal or Binary Expansions) $\mathbb{R}$  
+$r = a_1a_2...a_k.b_1b_2...$
 
 ### **Floor and Ceiling**
 * $\lfloor.\rfloor$ : Floor of $x$, the greatest integer $\leq x$.  
