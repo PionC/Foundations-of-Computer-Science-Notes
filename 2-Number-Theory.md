@@ -94,9 +94,9 @@ Let $m,p\in\mathbb{Z},\quad n\in\mathbb{Z}_{>0}$
 which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$. 
 
 **Fact:**
-* $0 \leq (m \ \% \ n) < n$
-* $m = _{(n)}p$ if, and only if, $(m \ \% \ n)=(p\ \%\ n)$
-* $m = _{(n)}(m\ \%\ n)$
+* $0 \leq (m \quad\% \quad n) < n$
+* $m = _{(n)}p$ if, and only if, $(m \quad\% \quad n)=(p\quad\%\quadn)$
+* $m = _{(n)}(m\quad\%\quadn)$
 * If $m = _{(n)}m'$ and $p=_{(n)}p'$ then:
   * $m+p=_{(n)}m'+p'$ and
   * $m\cdot p=_{(n)}m'+p'$  
@@ -106,10 +106,10 @@ which refers to $m=kn+p$, here, $p \geq remainder$ depends on $k$.
 ## **Euclidean Algorithm**
 ### **Faster Euclidean gcd Algorithm**
 $$gdc(m,n) = \begin{cases}
-m \qquad \qquad \qquad \ \ \  if\ \ m=n\ or\ n=0\\
-n \qquad \qquad \qquad \quad if\ \ m=0\\
-gcd(m\ \%\ n,n)\quad \ \ if\ \ m>n>0 \\
-gdc(m,n\ \%\ m)\quad \ if\ \ 0<m<n \\    
+m \qquad \qquad \qquad \quad if\quad m=n\quad  or\quad n=0\\
+n \qquad \qquad \qquad \quad if\quad \quad m=0\\
+gcd(m\quad\%\quad n,n)\quad \quad\quad if\quad\quad m>n>0 \\
+gdc(m,n\quad\%\quad m)\quad \quad if\quad\quad0<m<n \\ 
 \end{cases}$$  
-**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\ \%\ n,n)$  
-Proof: Let $k = m\ div\ n$. Then $m\ \%\ n=m-k\cdot n$ 
+**Fact:** For $m,n\in\mathbb{Z}$, if $m>n$ then $gcd(m,n)=gcd(m\% n,n)$  
+Proof: Let $k = m\quad div\quad n$. Then $m\% n=m-k\cdot n$ 
