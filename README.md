@@ -5,7 +5,8 @@ This repo is related to Foundations of Computer Science.
 * 1. [Introduction](1-Introduction.md)
 * 2. [Number Theory](2-Number-Theory.md)
 * 3. [Sets and Formal Languages](3-Sets-and-Formal-Languages.md)
-
+* 4. [Set Theory](4-Set-Theory.md)
+* 5. [Relations](5-Relations.md)
 
 
 

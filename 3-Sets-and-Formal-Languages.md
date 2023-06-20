@@ -93,7 +93,7 @@ Sets are typically described by:
 We say that $A$, $B$ are disjoint if $A\cup B=\emptyset$  
 ![complement](3-img/complement.png)
 * $A\backslash B$ -- **set difference**, relative complement ($a$ but not $b$):   
-  $A\backslash B=A\cup B^c$  
+  $A\backslash B=A\cap B^c$  
 ![set difference](3-img/set-difference.png)
 * $A\oplus B$ -- **symmetric difference** ($a$ and not $b$ or $b$ and not $a$; also known as $a$ or $b$ exclusively; $a$ xor $b$):  
 $A\oplus B = (A\backslash B)\cup (B\backslash A)$
@@ -110,10 +110,13 @@ The Cartesian Product of a collection of $n$ sets $S_1,S_2,...,S_n$ is the set o
 $\times ^{n}_{i=1}S_i\overset{\operatorname{def}}{=}\set{(s_1,s_2,...,s_n):s_k\in S_k, for\ 1\leq k\leq n}$  
 When all the $S_i$ are equal:  
 $S^2=S\times S$, $S^3=S\times S\times S$, $S^n=\times ^{n}_{i=1}S_i$  
+**Note that:**  
+$A\times (B\times C)\neq (A\times B)\times C$  
 **Fact:**  
   * $\emptyset\times S = \emptyset$, for every $S$
   * $\mid S\times T\mid = \mid S\mid\cdot\mid T\mid$
-  * $\mid \times ^{n}_{i=1}S_i\mid = \prod^{n}_{i=1}\mid S_i\mid$
+  * $\mid \times ^{n}_{i=1}S_i\mid = \prod^{n}_{i=1}\mid S_i\mid$  
+
 ***
 ***
 # **Formal Languages**
