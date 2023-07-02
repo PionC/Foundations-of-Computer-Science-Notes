@@ -8,7 +8,7 @@ This repo is related to Foundations of Computer Science.
 * 4. [Set Theory](4-Set-Theory.md)
 * 5. [Relations](5-Relations.md)
 * 6. [Equivalence Relations and Partial Orders](6-Equivalence-Relations-and-Partial-Orders.md)
-
+* 7. [Functions](7-Functions.md)
 
 ## Reference Books:
 * KA Ross and CR Wright: Discrete Mathematics

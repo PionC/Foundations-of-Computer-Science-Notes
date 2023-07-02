@@ -76,8 +76,8 @@ A binary relation $R\subseteq S\times T$ is:
 ### **Functions and Function Properties**
 * **Partial Function** is a binary relation that is (Fun).
 * A **Function** is a binary relation that is (Fun) and (Tot).
-* An **Injection** is a function that is (Inj).
-* A **Surjection** is a function that is (Sur).
+* An **Injection** is a function that is (Inj). (Injection or 1-1 one-to-one)
+* A **Surjection** is a function that is (Sur). (or called onto $lm(f) = Codom(f)$)
 * A **Bijection** is a function that is (Bij).
 ![Function](/5-img/function.png)  
 ![Function](/5-img/injection.png)  
@@ -121,9 +121,19 @@ A relation <u>**can not be** simultaneously reflexive and antireflexive.</u> (un
 ### **Definition**
 A function, $f:S\rightarrow T$, is a binary relation $f\subseteq S\times T$ that satisfies (Fun) and (Tot). That is, <u>**for all**</u> $s\in S$ there is <u>**exactly one**</u> $t\in T$ such that $(s,t)\in f$.  
 **Note:** We denote the unique element related to $s$ as $f(s)$ and the set of all functions from $S$ to $T$ as $T^S$.  
-**Explaination:** $f:S\rightarrow T$ describes pairing of the sets: it means that $f$ assigns to every element $s\in S$ a <u>unique</u> element $t\in T$. To emphasise where a specific element is sent, we can write $f:x\rightarrowtail y$, which means the same as $f(x)=y$.  
+**Explaination:** $f:S\rightarrow T$ describes pairing of the sets: it means that $f$ assigns to every element $s\in S$ a <u>unique</u> element $t\in T$. <u>To emphasise where a specific element is sent, we can write $f:x\rightarrowtail y$, which means the same as $f(x)=y$.</u>  
 **Important:** The domain and co-domain are critical aspects of a function's definition.  
-$f:\mathbb{N}\rightarrow\mathbb{Z}$ given by $f(x)\rightarrowtail x^2$ and $g:\mathbb{N}\rightarrow\mathbb{N}$ given by $g(x)\rightarrowtail x^2$ are different functions even though they have the same behaviour.  
-![Symbol](/5-img/symbol.png)
+$f:\mathbb{N}\rightarrow\mathbb{Z}$ given by $f(x)\rightarrowtail x^2$ and $g:\mathbb{N}\rightarrow\mathbb{N}$ given by $g(x)\rightarrowtail x^2$ are different functions even though they have the same behaviour.   
+![Symbol](/5-img/symbol.png)  
+![Function-example](/5-img/function-example.png)  
+
 ### **Converse of A Function**
 Question: $f^\leftarrow$ is relation; when is it a function?
+
+### **Functions on Finite Sets**  
+For a **finite** set **S** and $f:S \rightarrow S$ the properties.
+* surjective, and
+* injective  
+
+are equivalent.
+
