@@ -90,7 +90,7 @@ Sets are typically described by:
 * $A\cap B$ -- **intersection** ($a$ and $b$): $A\cap B = \{x:x\in A\ and\ x\in B\}$  
   If $A\cap B=\emptyset$, we say that $A$ and $B$ are **disjoint**.  
 * $A^c$ -- **complement** (with respect to a universal set $\mathcal{U}$): $A^c = \{x:x\in \mathcal{U}\ and\ x \notin A\}$  
-We say that $A$, $B$ are disjoint if $A\cup B=\emptyset$  
+We say that $A$, $B$ are disjoint if $A\cap B=\emptyset$  
 ![complement](3-img/complement.png)
 * $A\backslash B$ -- **set difference**, relative complement ($a$ but not $b$):   
   $A\backslash B=A\cap B^c$  
