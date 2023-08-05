@@ -77,7 +77,8 @@ A binary relation $R\subseteq S\times T$ is:
 * **Partial Function** is a binary relation that is (Fun).
 * A **Function** is a binary relation that is (Fun) and (Tot).
 * An **Injection** is a function that is (Inj). (Injection or 1-1 one-to-one)
-* A **Surjection** is a function that is (Sur). (or called onto $lm(f) = Codom(f)$)
+* A **Surjection** is a function that is (Sur). (or called onto $Im(f) = Codom(f)$)  
+  $Im$ means image, or the range of the function $f$ here.
 * A **Bijection** is a function that is (Bij).
 ![Function](/5-img/function.png)  
 ![Function](/5-img/injection.png)  
